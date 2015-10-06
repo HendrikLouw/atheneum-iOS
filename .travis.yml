@@ -2,3 +2,14 @@ osx_image: xcode7
 language: objective-c
 xcode_workspace: atheneum.xcworkspace
 xcode_scheme: atheneum
+script:
+  xctool
+  -workspace atheneum.xcworkspace 
+  -scheme atheneum 
+  -sdk iphonesimulator
+  -destination 'platform=iOS Simulator,name=iPhone 6 Plus'
+  build 
+  test
+  ONLY_ACTIVE_ARCH=NO
+  CODE_SIGN_IDENTITY=""
+  CODE_SIGNING_REQUIRED=NO
