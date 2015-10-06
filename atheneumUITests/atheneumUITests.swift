@@ -7,9 +7,10 @@
 //
 
 import XCTest
+@testable import atheneum
 
 class atheneumUITests: XCTestCase {
-        
+
     override func setUp() {
         super.setUp()
         

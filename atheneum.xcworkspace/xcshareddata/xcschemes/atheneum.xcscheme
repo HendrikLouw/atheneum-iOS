@@ -20,6 +20,20 @@
                ReferencedContainer = "container:atheneum.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B195FCEF1BC3D57C00EC0C64"
+               BuildableName = "atheneumUITests.xctest"
+               BlueprintName = "atheneumUITests"
+               ReferencedContainer = "container:atheneum.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "B195FCE41BC3D57C00EC0C64"
                BuildableName = "atheneumTests.xctest"
                BlueprintName = "atheneumTests"
-               ReferencedContainer = "container:atheneum.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B195FCEF1BC3D57C00EC0C64"
-               BuildableName = "atheneumUITests.xctest"
-               BlueprintName = "atheneumUITests"
                ReferencedContainer = "container:atheneum.xcodeproj">
             </BuildableReference>
          </TestableReference>
