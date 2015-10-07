@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12E46491BC53149008474B3 /* ScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12E46481BC53149008474B3 /* ScanController.swift */; settings = {ASSET_TAGS = (); }; };
+		B12E464B1BC53ED4008474B3 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12E464A1BC53ED4008474B3 /* Camera.swift */; settings = {ASSET_TAGS = (); }; };
 		B17C4AB11BC3E10500B76C80 /* BookshelfController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C4AB01BC3E10500B76C80 /* BookshelfController.swift */; settings = {ASSET_TAGS = (); }; };
 		B17C4ABD1BC452A700B76C80 /* atheneumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C4ABC1BC452A700B76C80 /* atheneumUITests.swift */; };
 		B195FCD51BC3D57C00EC0C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195FCD41BC3D57C00EC0C64 /* AppDelegate.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B12E46481BC53149008474B3 /* ScanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanController.swift; sourceTree = "<group>"; };
+		B12E464A1BC53ED4008474B3 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		B17C4AB01BC3E10500B76C80 /* BookshelfController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookshelfController.swift; sourceTree = "<group>"; };
 		B17C4ABA1BC452A700B76C80 /* atheneumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atheneumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17C4ABC1BC452A700B76C80 /* atheneumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atheneumUITests.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				B195FCDD1BC3D57C00EC0C64 /* LaunchScreen.storyboard */,
 				B195FCE01BC3D57C00EC0C64 /* Info.plist */,
 				B17C4AB01BC3E10500B76C80 /* BookshelfController.swift */,
+				B12E46481BC53149008474B3 /* ScanController.swift */,
+				B12E464A1BC53ED4008474B3 /* Camera.swift */,
 			);
 			path = atheneum;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12E46491BC53149008474B3 /* ScanController.swift in Sources */,
+				B12E464B1BC53ED4008474B3 /* Camera.swift in Sources */,
 				B17C4AB11BC3E10500B76C80 /* BookshelfController.swift in Sources */,
 				B195FCD71BC3D57C00EC0C64 /* ViewController.swift in Sources */,
 				B195FCD51BC3D57C00EC0C64 /* AppDelegate.swift in Sources */,
@@ -490,6 +498,7 @@
 				B17C4AC31BC452A700B76C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B195FCCC1BC3D57C00EC0C64 /* Build configuration list for PBXProject "atheneum" */ = {
 			isa = XCConfigurationList;
