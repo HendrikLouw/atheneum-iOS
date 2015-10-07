@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B17C4AB11BC3E10500B76C80 /* BookshelfController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C4AB01BC3E10500B76C80 /* BookshelfController.swift */; settings = {ASSET_TAGS = (); }; };
+		B17C4ABD1BC452A700B76C80 /* atheneumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C4ABC1BC452A700B76C80 /* atheneumUITests.swift */; };
 		B195FCD51BC3D57C00EC0C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195FCD41BC3D57C00EC0C64 /* AppDelegate.swift */; };
 		B195FCD71BC3D57C00EC0C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195FCD61BC3D57C00EC0C64 /* ViewController.swift */; };
 		B195FCDA1BC3D57C00EC0C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B195FCD81BC3D57C00EC0C64 /* Main.storyboard */; };
 		B195FCDC1BC3D57C00EC0C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B195FCDB1BC3D57C00EC0C64 /* Assets.xcassets */; };
 		B195FCDF1BC3D57C00EC0C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B195FCDD1BC3D57C00EC0C64 /* LaunchScreen.storyboard */; };
 		B195FCEA1BC3D57C00EC0C64 /* atheneumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195FCE91BC3D57C00EC0C64 /* atheneumTests.swift */; };
-		B195FCF51BC3D57C00EC0C64 /* atheneumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B195FCF41BC3D57C00EC0C64 /* atheneumUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B195FCE61BC3D57C00EC0C64 /* PBXContainerItemProxy */ = {
+		B17C4ABF1BC452A700B76C80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B195FCC91BC3D57C00EC0C64 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B195FCD01BC3D57C00EC0C64;
 			remoteInfo = atheneum;
 		};
-		B195FCF11BC3D57C00EC0C64 /* PBXContainerItemProxy */ = {
+		B195FCE61BC3D57C00EC0C64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B195FCC91BC3D57C00EC0C64 /* Project object */;
 			proxyType = 1;
@@ -36,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		B17C4AB01BC3E10500B76C80 /* BookshelfController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookshelfController.swift; sourceTree = "<group>"; };
+		B17C4ABA1BC452A700B76C80 /* atheneumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atheneumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17C4ABC1BC452A700B76C80 /* atheneumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atheneumUITests.swift; sourceTree = "<group>"; };
+		B17C4ABE1BC452A700B76C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B195FCD11BC3D57C00EC0C64 /* atheneum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atheneum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B195FCD41BC3D57C00EC0C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B195FCD61BC3D57C00EC0C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,12 +49,18 @@
 		B195FCE51BC3D57C00EC0C64 /* atheneumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atheneumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B195FCE91BC3D57C00EC0C64 /* atheneumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atheneumTests.swift; sourceTree = "<group>"; };
 		B195FCEB1BC3D57C00EC0C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B195FCF01BC3D57C00EC0C64 /* atheneumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atheneumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B195FCF41BC3D57C00EC0C64 /* atheneumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atheneumUITests.swift; sourceTree = "<group>"; };
 		B195FCF61BC3D57C00EC0C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B17C4AB71BC452A700B76C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B195FCCE1BC3D57C00EC0C64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,22 +75,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B195FCED1BC3D57C00EC0C64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B17C4ABB1BC452A700B76C80 /* atheneumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B17C4ABC1BC452A700B76C80 /* atheneumUITests.swift */,
+				B17C4ABE1BC452A700B76C80 /* Info.plist */,
+			);
+			path = atheneumUITests;
+			sourceTree = "<group>";
+		};
 		B195FCC81BC3D57C00EC0C64 = {
 			isa = PBXGroup;
 			children = (
 				B195FCD31BC3D57C00EC0C64 /* atheneum */,
 				B195FCE81BC3D57C00EC0C64 /* atheneumTests */,
 				B195FCF31BC3D57C00EC0C64 /* atheneumUITests */,
+				B17C4ABB1BC452A700B76C80 /* atheneumUITests */,
 				B195FCD21BC3D57C00EC0C64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +103,7 @@
 			children = (
 				B195FCD11BC3D57C00EC0C64 /* atheneum.app */,
 				B195FCE51BC3D57C00EC0C64 /* atheneumTests.xctest */,
-				B195FCF01BC3D57C00EC0C64 /* atheneumUITests.xctest */,
+				B17C4ABA1BC452A700B76C80 /* atheneumUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +143,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B17C4AB91BC452A700B76C80 /* atheneumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17C4AC11BC452A700B76C80 /* Build configuration list for PBXNativeTarget "atheneumUITests" */;
+			buildPhases = (
+				B17C4AB61BC452A700B76C80 /* Sources */,
+				B17C4AB71BC452A700B76C80 /* Frameworks */,
+				B17C4AB81BC452A700B76C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17C4AC01BC452A700B76C80 /* PBXTargetDependency */,
+			);
+			name = atheneumUITests;
+			productName = atheneumUITests;
+			productReference = B17C4ABA1BC452A700B76C80 /* atheneumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B195FCD01BC3D57C00EC0C64 /* atheneum */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B195FCF91BC3D57C00EC0C64 /* Build configuration list for PBXNativeTarget "atheneum" */;
@@ -166,24 +196,6 @@
 			productReference = B195FCE51BC3D57C00EC0C64 /* atheneumTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B195FCEF1BC3D57C00EC0C64 /* atheneumUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B195FCFF1BC3D57C00EC0C64 /* Build configuration list for PBXNativeTarget "atheneumUITests" */;
-			buildPhases = (
-				B195FCEC1BC3D57C00EC0C64 /* Sources */,
-				B195FCED1BC3D57C00EC0C64 /* Frameworks */,
-				B195FCEE1BC3D57C00EC0C64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B195FCF21BC3D57C00EC0C64 /* PBXTargetDependency */,
-			);
-			name = atheneumUITests;
-			productName = atheneumUITests;
-			productReference = B195FCF01BC3D57C00EC0C64 /* atheneumUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +205,14 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Thoughtworks;
 				TargetAttributes = {
+					B17C4AB91BC452A700B76C80 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B195FCD01BC3D57C00EC0C64;
+					};
 					B195FCD01BC3D57C00EC0C64 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
 					B195FCE41BC3D57C00EC0C64 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = B195FCD01BC3D57C00EC0C64;
-					};
-					B195FCEF1BC3D57C00EC0C64 = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = B195FCD01BC3D57C00EC0C64;
 					};
@@ -221,12 +233,19 @@
 			targets = (
 				B195FCD01BC3D57C00EC0C64 /* atheneum */,
 				B195FCE41BC3D57C00EC0C64 /* atheneumTests */,
-				B195FCEF1BC3D57C00EC0C64 /* atheneumUITests */,
+				B17C4AB91BC452A700B76C80 /* atheneumUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B17C4AB81BC452A700B76C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B195FCCF1BC3D57C00EC0C64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,16 +263,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B195FCEE1BC3D57C00EC0C64 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B17C4AB61BC452A700B76C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17C4ABD1BC452A700B76C80 /* atheneumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B195FCCD1BC3D57C00EC0C64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,26 +292,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B195FCEC1BC3D57C00EC0C64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B195FCF51BC3D57C00EC0C64 /* atheneumUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B17C4AC01BC452A700B76C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B195FCD01BC3D57C00EC0C64 /* atheneum */;
+			targetProxy = B17C4ABF1BC452A700B76C80 /* PBXContainerItemProxy */;
+		};
 		B195FCE71BC3D57C00EC0C64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B195FCD01BC3D57C00EC0C64 /* atheneum */;
 			targetProxy = B195FCE61BC3D57C00EC0C64 /* PBXContainerItemProxy */;
-		};
-		B195FCF21BC3D57C00EC0C64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B195FCD01BC3D57C00EC0C64 /* atheneum */;
-			targetProxy = B195FCF11BC3D57C00EC0C64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -315,6 +327,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B17C4AC21BC452A700B76C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = atheneumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.atheneumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = atheneum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B17C4AC31BC452A700B76C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = atheneumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.atheneumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = atheneum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		B195FCF71BC3D57C00EC0C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -444,33 +480,17 @@
 			};
 			name = Release;
 		};
-		B195FD001BC3D57C00EC0C64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = atheneumUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.atheneumUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = atheneum;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		B195FD011BC3D57C00EC0C64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = atheneumUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.atheneumUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = atheneum;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B17C4AC11BC452A700B76C80 /* Build configuration list for PBXNativeTarget "atheneumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17C4AC21BC452A700B76C80 /* Debug */,
+				B17C4AC31BC452A700B76C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B195FCCC1BC3D57C00EC0C64 /* Build configuration list for PBXProject "atheneum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -494,15 +514,6 @@
 			buildConfigurations = (
 				B195FCFD1BC3D57C00EC0C64 /* Debug */,
 				B195FCFE1BC3D57C00EC0C64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B195FCFF1BC3D57C00EC0C64 /* Build configuration list for PBXNativeTarget "atheneumUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B195FD001BC3D57C00EC0C64 /* Debug */,
-				B195FD011BC3D57C00EC0C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
